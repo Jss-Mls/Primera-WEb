@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Trabajo de Investigación</title>
+    <link rel= "shortcut icon" type= "image/x-icon" href="Images/favicon.ico">
+    <link rel= "stylesheet" type= "text/css" href= "css/estilos.css">
+    <title>Required</title>
+
+</head>
+<body>
+
+    <form name="encuesta" method="POST" data-netlify="true">
+
+<!--.........................Encabezado..................-->
+
+
+        <h2> Universidad Autónoma de Santo Domingo</h2>
+
+        <div class= "title2">
+            <h4>Facultad de Ingeniería y Arquitectura</h4>
+        </div>
+    
+    
+         <div class="image">
+             <img src="Images/Logo uasd icon.png" width="100" height="100" />
+        </div>
+
+    <!--..............................................................-->
+
+
+    <!--....................Enunciado Encuesta.......................-->
+        <div class="title3">
+            <h5> Encuesta para Trabajo de Investigación </h5>
+         </div>
+
+         <div class="Enunciado">
+             <p>
+                <b>OBJETIVO: </b>
+                 La presente encuesta servirá para recopilar datos que permitirán fundamentar las bases para el desarrollo del título y Análisis de Investigación correspondiente al proyecto de tesis que tiene como tema general " Plan de Gestión de Proyecto para crear una Planificación Estratégica".
+
+                <br><br>
+
+
+                 <b>INSTRUCCIÓN:</b>
+    
+                Esta es una encuesta que conata de 9 preguntas en la cuales usted deberá seleccionar una opción, varias opciones o escribir una respuesta. 
+    
+                Para que la información introducida sea recopilada, no olvide dar clic sobre el botón de "Enviar", al concluir la encuesta.
+    
+                 </p>
+
+            </div>
+
+            <!--..................Pregunta 0........................-->
+    
+        <div>
+            <label for="Pregunta0" >1. Nombre de la Empresa:</label> 
+            <br>
+            <input type="text" name="Pregunta0" placeholder="Escribir nombre de Empresa" id="Pregunta0" class="Pregunta0" size="60px" required>
+
+
+        </div>
+        
+        <br>
+
+            <!--..................Pregunta 1........................-->
+
+        <div>
+            <label for="Pregunta1"> 2. Seleccione la categoría de la Empresa:</label>
+            <br>
+            <select name="Pregunta1" id="Pregunta1" class="Pregunta 1" required>
+                <option disabled selected value> -- seleccionar opción -- </option>
+                <option value="Micro">Micro</option>
+                <option value="Pequeña">Pequeña</option>
+                <option value="Mediana">Mediana</option>
+                <option value="Grande">Grande</option>
+            
+        </select>
+
+        </div>
+        <br>
+   
+
+
+            <!--..................Pregunta 2........................-->
+
+        <div>
+            <label for="Pregunta2">3. ¿Está trabajando actualmente con otros grupos de tesis de la uasd?</label>
+            <br>
+            <input type="radio" style="vertical-align: middle; margin: 1px;" name="Pregunta2"  id="si" value="Sí" required>
+            <label for="si">Sí</label>
+            <br>
+            <input type="radio" style="vertical-align: middle; margin: 1px;" name="Pregunta2"  id="no" value="No" required>
+            <label for="no">No</label>
+        </div>
+        <br>
+        
+
+        
+        
+
+            <!--..................Pregunta 3........................-->
+
+        <div>
+                <label for="Pregunta3">4. ¿Cuál es la estructura organizacional de la empresa? </label>
+                <br>
+                <textarea id="Pregunta3" placeholder="Ingrese la respuesta" required></textarea>
+
+        </div>
+            
+            
+        <br>
+
+
+            <!--..................Pregunta 4........................-->
+           
+        <div>
+            <label for="Pregunta4">5. ¿Qué cantidad de personal (clientes internos) tiene la empresa? </label>
+           <br>
+            <textarea id="Pregunta4" placeholder="Ingrese la respuesta" required></textarea>
+
+        </div>
+        <br>
+            
+        
+
+            <!--..................Pregunta 5........................-->
+
+        <div>
+            <label for="Pregunta5">6. ¿Cómo funciona la empresa y cuáles son los procesos que se llevan a cabo? </label>
+            <br>
+            <textarea id="Pregunta5" placeholder="Ingrese la respuesta" required></textarea>
+            
+            
+        </div>
+            
+        <br>
+
+            <!--..................Pregunta 6........................-->
+
+        <div>
+            <label for="Pregunta6">7. ¿Cuáles equipos ustedes tienen a disposición para los trabajos que se realizan? </label>
+           <br>
+            <textarea id="Pregunta6" placeholder="Ingrese la respuesta" required></textarea>
+
+        </div>
+
+        <br>
+            
+      
+
+            <!--..................Pregunta .7.......................-->
+
+        <div>
+            <label for="Pregunta7">8. ¿Qué puntos de mejora o qué procesos ha podido identificar? Esta información es importante para llevar a cabo el proyecto de tesis de grado. </label>
+           <br>
+            <textarea id="Pregunta7" placeholder="Ingrese la respuesta" required></textarea>
+            
+        </div>
+
+        <br>
+
+            
+
+            <!--..................Pregunta 8.......................-->
+            <div>
+                <label for="Pregunta8">9. ¿Están dispuestos a brindarnos apoyo tanto en información como asesoría durante el proceso de investigación? </label>
+               <br>
+                <textarea id="Pregunta8" placeholder="Ingrese la respuesta" required></textarea>
+
+            </div>
+
+            <br>
+
+     
+
+
+                <!--..................ENVIAR.......................-->
+
+            <div>
+                <input type="submit" value="Enviar Respuestas" id="Enviar" >
+
+            </div>
+            
+        
+        
+
+  <!--............................................................-->
+    </form>
+    
+</body>
+</html>
